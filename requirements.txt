@@ -3,6 +3,7 @@ aiohttp
 apscheduler
 asyncio
 bard
+bing_image_downloader 
 beautifulsoup4
 bs4
 cloudscraper
@@ -28,7 +29,7 @@ MukeshAPI
 numpy
 openai==0.28.0
 opencv-python
-pillow==9.5.0
+pillow==10.3.0
 psutil
 pickledb
 pornhub-api==0.3.0
