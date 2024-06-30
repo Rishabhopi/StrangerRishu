@@ -1,19 +1,9 @@
 import os
-##import cv2
+import cv2
 from PIL import Image
 from pyrogram import Client, filters
 from SHUKLAMUSIC import app
 
-# Function to reinstall numpy if import fails
-def reinstall_numpy():
-    os.system("pip install --force-reinstall numpy")
-
-# Try to import numpy and handle ImportError
-try:
-    import numpy as np
-except ImportError:
-    reinstall_numpy()
-    import numpy as np
 
 @app.on_message(filters.command("tiny"))
 async def tiny_sticker(client, message):
