@@ -61,7 +61,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/SHIVANSH475/SHIVANSH-MUSIC && cd VIP-MUSIC`
+`git clone https://github.com/itzshukla/STRANGER-MUSIC && cd STRANGER-MUSIC`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
