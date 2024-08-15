@@ -3,6 +3,10 @@ aiohttp
 apscheduler
 asyncio
 bard
+stripe==10.7.0
+mysql-connector-python==9.0.0
+telebot==0.0.5
+youtube_dl==2021.12.17
 bing_image_downloader 
 beautifulsoup4
 bs4
@@ -26,10 +30,10 @@ instaloader
 lexica-api
 motor 
 MukeshAPI
-numpy<2.0.0
+numpy
 openai==0.28.0
 opencv-python
-pillow==9.5.0
+pillow==10.3.0
 psutil
 pickledb
 pornhub-api==0.3.0
@@ -59,6 +63,6 @@ telegraph
 tgcrypto
 unidecode
 wget
-yt-dlp
+yt-dlp==2024.8.6
 youtube-search
 youtube-search-python
