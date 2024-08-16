@@ -22,7 +22,7 @@ from SHUKLAMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SHUKLAMUSIC.utils.inline.playlist import botplaylist_markup
+from SHUKLAMUSIC.utils.inline import botplaylist_markup
 
 links = {}
 clinks = {}
